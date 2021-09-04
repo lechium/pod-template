@@ -56,6 +56,7 @@ module Pod
 
       # remove podspec for osx
       `rm ./NAME-osx.podspec`
+      `mv ./NAME-tvos.podspec ./NAME.podspec`
     end
   end
 
